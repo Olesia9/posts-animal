@@ -1,0 +1,58 @@
+.posts__material {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 880px) {
+    .posts__material {
+        flex-direction: column !important;
+        align-content: center !important;
+    }
+
+    .posts__material-article {
+        width: 67% !important;
+    }
+}
+
+.posts__material-article {
+    width: 30%;
+    border: 2px solid #939393;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.posts__material-img {
+    width: 100%;
+}
+
+.posts {
+    padding-top: 30px;
+}
+
+.posts__material-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #d28411;
+}
+
+.posts__material-animal {
+    font-size: 19px;
+    color: #303245;
+}
+
+.posts__material-description {
+    color: #303245;
+}
+
+.posts__delete {
+    padding: 8px 22px;
+    border-radius: 5px;
+    border: 2px solid #d53333;
+    background: none;
+    color: #d53333;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
